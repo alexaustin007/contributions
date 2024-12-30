@@ -1,0 +1,1 @@
+Fault tolerance in Spark - Spark automatically recovers and recompute lost data or tasks using lineage information(which it creates for lazy job) which tracks the sequence of transformations applied to resilient distributed datasets (RDDs) which guarantees successful job completion even after node failures
